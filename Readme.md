@@ -1,12 +1,27 @@
 ![ASIX](https://www.asix.com.tw/upload/2019_12_061/20191206160042ixfpyg5Wz1.jpg)
 
-# [ASIX USB Ethernet ICs](https://www.asix.com.tw/en/product/USBEthernet)
-* ASIX AX88772A USB 2.0 Fast Ethernet Network Adapter
-* ASIX AX88772B USB 2.0 Fast Ethernet Network Adapter
-* ASIX AX88772C USB 2.0 Fast Ethernet Network Adapter
+# ASIX USB Gigabit/Fast Ethernet Linux driver (asix.o)
+Official ASIX USB Gigabit/Fast Ethernet Linux driver source for AX88772C, AX88772B, AX88772A, AX88772 and AX88178 controllers. (Kernel module name: asix.o)
 
+---
+## ASIX USB Ethernet ICs 
+- [USB Ethernet Chips](https://www.asix.com.tw/en/product/USBEthernet)
+
+### Supported ICs
+These controllers are bound by the `asix.o` network driver. All ASIX devices
+enumerate under **VID `0x0B95`**; the exact IC is selected by the USB `bcdDevice`
+value.
+
+| IC | USB VID:PID | `bcdDevice` | Interface |
+|----|-------------|-------------|-----------|
+| **AX88178** | `0B95:1780` | —        | USB 2.0 to Gigabit Ethernet Chips |
+| **AX88772C** | `0B95:772b` | `0x0002` | USB 2.0 to Fast Ethernet Chips |
+| **AX88772B** | `0B95:772b` | `0x0001` | USB 2.0 to Fast Ethernet Chips |
+| **AX88772A** | `0B95:772a` | —        | USB 2.0 to Fast Ethernet Chips |
+| **AX88772** | `0B95:7720` | —        | USB 2.0 to Fast Ethernet Chips |
+
+---
 ## Prerequisites
-
 Prepare to build the driver, you need the Linux kernel sources installed on the 
 build machine, and make sure that the version of the running kernel must match 
 the installed kernel sources. If you don't have the kernel sources, you can get 
