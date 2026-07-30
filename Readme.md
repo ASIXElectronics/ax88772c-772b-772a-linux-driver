@@ -5,7 +5,7 @@ Official ASIX USB Gigabit/Fast Ethernet Linux driver source for AX88772C, AX8877
 
 ---
 ## ASIX USB Ethernet ICs 
-- [USB Ethernet Chips](https://www.asix.com.tw/en/product/USBEthernet)
+- [ASIX USB Ethernet Chips](https://www.asix.com.tw/en/product/USBEthernet)
 
 ### Supported ICs
 These controllers are bound by the `asix.o` network driver. All ASIX devices
