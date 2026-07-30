@@ -1,7 +1,7 @@
 ![ASIX](https://www.asix.com.tw/upload/2019_12_061/20191206160042ixfpyg5Wz1.jpg)
 
 # ASIX USB Gigabit/Fast Ethernet Linux driver (asix.o)
-Official ASIX USB Gigabit/Fast Ethernet Linux driver source for AX88772C, AX88772B, AX88772A, AX88772 and AX88178 controllers. (Kernel module name: asix.o)
+Official ASIX USB Gigabit/Fast Ethernet Linux driver source for AX88772C, AX88772B, AX88772A, AX88772 and AX88178 controllers. (driver module name: asix.o)
 
 ---
 ## ASIX USB Ethernet ICs 
